@@ -10,6 +10,9 @@ export const GlobalStyle = createGlobalStyle`
 
 	body {
 		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		background-color: ${({ theme }) => theme.colors.background};
+		color: ${({ theme }) => theme.colors.text};
 
 		a {
 			text-decoration: none;
